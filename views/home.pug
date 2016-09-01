@@ -1,0 +1,60 @@
+doctype html
+html(lang='en')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', href='/css/home.css')
+    link(rel='stylesheet', href='/css/flexboxgrid.css')
+
+    script(type='text/javascript', src='/js/jquery-2.2.4.min.js')
+
+    body
+        div(class='paraimg1', style='z-index: 100;')
+            div(id='guild-name-banner', class='caption')
+                div(class='row')
+                    span(class='border col-xs-12') &lt;Been Drinkin&gt; Horde Mal'Ganis-US
+                div(class='row')
+                    div(class='col-xs-12')
+                        img(src='/img/bd-guild-logo.png')
+            header(id='guild-name-banner-sticky', style='opacity: 0;')
+                div(class='row middle-xs', style='height: 100%; padding-left: 20px; padding-right: 20px')
+                    div(class='col-xs-6 start-xs')
+                        div(class='border-text') /who drinkin
+                    div(class='col-xs-6 end-xs', style='height: 100%;')
+                            ul(class='row middle-xs border-nav')
+                                li(class='col-xs-4')
+                                    a.active(id='homelink', href='#') home
+                                li(class='col-xs-4')
+                                    a(id='aboutlink', href='#') about
+                                li(class='col-xs-4')
+                                    a(id='applylink', href='#') apply
+
+        div(id='about', class='blurb')
+            h3(style='text-align: center;') About Us
+            hr
+            p Been Drinkin' is a 20-man raiding guild on Mal'Ganis-US focused on mythic raiding on a light 2 days per week schedule.
+            p A lot of us are old school ex-hardcore players who, if we didn’t have jobs, school, partners, children, etc. would probably be playing computer games 24/7. But since most of us actually have lives, we only raid twice a week.
+            p Our raid times are:<br>&bull; Monday: 19.00 – 23.00 (server time)<br>&bull; Monday: 19.00 – 23.00 (server time)<br>
+            p Our raid times are casual, but we’re a hardcore raiding guild focused on efficiency, doing the max amount of (relevant) content in the least possible time spent. We always aim to clear all content on mythical difficulty. Many of us have been raiding together for years and a lot of us have killed every single boss in the game prior to major easymode nerfs.
+            hr
+
+        div(class='paraimg2')
+
+        div(id='apply', class='blurb')
+            h3(style='text-align: center;') Ready to Apply?
+            hr
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales volutpat condimentum. Phasellus diam eros, luctus vitae velit non, malesuada dignissim est. Quisque tellus nulla, aliquam sit amet condimentum at, eleifend non sapien. Duis bibendum lacinia tempus. In vitae metus scelerisque, malesuada purus vitae, maximus ex. Praesent luctus tincidunt sapien, efficitur pharetra augue tristique a. In molestie ligula dolor, vel placerat est tempus ut. Sed rhoncus ac orci ut interdum. Sed pretium elit quis arcu suscipit, a varius erat rutrum. In tortor nisi, convallis in ornare non, tristique non lorem. Mauris dui risus, varius ac efficitur vel, accumsan ac est. Nam ultrices odio id nisi aliquam venenatis.
+            p Nam congue, metus vitae eleifend pharetra, ipsum libero dapibus ligula, vel scelerisque ligula felis eu quam. Vestibulum placerat ipsum nec nibh pretium, a egestas turpis aliquet. Aliquam vel augue vitae mauris volutpat lacinia sit amet sagittis felis. Pellentesque venenatis, risus id cursus mattis, justo elit hendrerit nibh, eu efficitur felis enim quis diam. Donec mauris dui, hendrerit sed diam a, malesuada ullamcorper felis. Nulla facilisi. Fusce posuere egestas ipsum maximus sagittis. Phasellus mi ante, condimentum id imperdiet eu, tincidunt sit amet urna. Proin sed justo massa. Praesent feugiat vulputate vehicula. Nulla tincidunt ex ut metus porttitor, vel volutpat elit gravida. Aenean aliquet, augue faucibus bibendum tempor, neque neque porta velit, fermentum tempor turpis eros ac enim. Donec faucibus mauris sed ipsum venenatis, vitae venenatis sem fermentum. Nullam consequat semper diam in dictum.
+            p Sed odio urna, tincidunt a egestas venenatis, sagittis quis nunc. Donec ut semper orci, sit amet dignissim urna. Donec sit amet magna magna. Aenean posuere erat et ullamcorper egestas. Duis non consectetur augue. Pellentesque nec nibh ante. Proin maximus, eros vitae semper efficitur, sem lectus eleifend tortor, a tempus lorem nibh at dolor. Etiam arcu mauris, suscipit a enim quis, tincidunt.
+            hr
+
+        div(class='paraimg3')
+
+        div(id='footer', class='blurb', style='padding: 0; margin: 0;')
+            hr
+            p(style='text-align: center; padding: 0; margin: 0;') Copyright © 2016 Been Drinkin' | Developed by hopper
+            hr
+
+    script(type='text/javascript', src='/js/home.js')
