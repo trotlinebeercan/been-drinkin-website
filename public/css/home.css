@@ -12,8 +12,9 @@ ul {
     margin: 0;
 }
 
-.ul-nav li {
+.ul-nav li a {
     float: right;
+    padding: 4px;
 }
 
 .ul-nav li a:hover {
