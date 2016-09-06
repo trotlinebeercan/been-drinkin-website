@@ -20,6 +20,10 @@ ul {
     color: #C30;
 }
 
+.ul-class {
+    color: #111;
+}
+
 li a {
     color: #111;
     padding-left: 0;
