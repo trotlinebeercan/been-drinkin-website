@@ -12,18 +12,40 @@ ul {
     margin: 0;
 }
 
-li {
+.ul-nav li {
     float: right;
+}
+
+.ul-nav li a:hover {
+    color: #C30;
 }
 
 li a {
     color: #111;
-    padding-left: 5px;
+    padding-left: 0;
+    padding-right: 0;
     text-decoration: none;
 }
 
-li a:hover {
-    color: #C30;
+a.btn {
+    display: inline-block;
+    color: #666;
+    background-color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom-width: 3px;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: #e3e3e3;
+    border-color: rgba(0,0,0,0.5);
 }
 
 .videowrapper {
@@ -70,12 +92,12 @@ li a:hover {
 }
 
 .paraimg2 {
-    background-image: url("/img/background-illidan-large.jpg");
-    min-height: 100%;
+    background-image: url("/img/background-illidan-partied-cropped.jpg");
+    min-height: 200px;
 }
 
 .paraimg3 {
-    background-image: url("/img/background-illidan-partied-cropped.jpg");
+    background-image: url("/img/background-illidan-large.jpg");
     min-height: 100%;
 }
 
@@ -141,7 +163,7 @@ header span.border {
 
 .border-nav {
     color: #111;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-size: 14px;
     height: 100%;
 }
@@ -150,7 +172,7 @@ header span.border {
     color: #777;
     background-color: #fff;
     text-align: center;
-    padding: 50px 80px;
+    padding: 40px 40px;
     text-align: justify;
 }
 
@@ -159,5 +181,12 @@ h3 {
     letter-spacing: 3px;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+h2 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font: 16px "Lato", sans-serif;
     color: #111;
 }

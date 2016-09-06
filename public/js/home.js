@@ -7,20 +7,20 @@ $(function() {
         var guildNameBannerSticky = $('#guild-name-banner-sticky');
         //var guildNameHeight = guildNameBanner.offset().top;
         if ($(this).scrollTop() > 1) {
-            if (!kWeAreShowingTheStickyHeader) {
+            //if (!kWeAreShowingTheStickyHeader) {
                 guildNameBanner.css('opacity', 0.0);
                 guildNameBannerSticky.css('opacity', 1.0);
                 guildNameBannerSticky.addClass('guild-name-banner-sticky');
                 kWeAreShowingTheStickyHeader = 1;
-            }
+            //}
         }
         else {
-            if (kWeAreShowingTheStickyHeader) {
+            //if (kWeAreShowingTheStickyHeader) {
                 guildNameBanner.animate({ opacity: 1.0 }, 500);
                 guildNameBannerSticky.css('opacity', 0.0);
                 guildNameBannerSticky.removeClass('guild-name-banner-sticky');
                 kWeAreShowingTheStickyHeader = 0;
-            }
+            //}
         }
     });
 
