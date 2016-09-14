@@ -167,6 +167,14 @@ header span.border {
     height: 100%;
 }
 
+.apply-button-left {
+    /**/
+}
+
+.apply-button-bottom {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .caption span.border {
         font-size: 2.5vw;
@@ -192,6 +200,19 @@ header span.border {
 
     .videowrapper img {
         width: 100%;
+    }
+
+    .apply-button-left {
+        display: none;
+    }
+
+    .apply-button-bottom {
+        display: block;
+    }
+
+    .apply-list {
+        min-width: 300px !important;
+        margin: 0 auto;
     }
 }
 
